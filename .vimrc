@@ -22,3 +22,6 @@ set shiftwidth=4
 set expandtab
 "escape insert mode with jk
 imap jk <Esc>
+
+autocmd InsertEnter * set cul
+autocmd InsertLeave * set nocul
