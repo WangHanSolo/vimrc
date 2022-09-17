@@ -24,3 +24,6 @@ imap jk <Esc>
 
 autocmd InsertEnter * set cul
 autocmd InsertLeave * set nocul
+
+" show line number when opening directory
+let g:netrw_bufsettings = 'noma nomod nu nowrap ro nobl'
